@@ -28,4 +28,5 @@ LOAD DATA INFILE 'Nama_backup_file' INTO TABLE nama_table;
 
 ### 6. Tuliskan Script Cron Job untuk melakukan Backup otomatis setiap hari minggu jam 12 malam!
 - Crontab-e
+
 00**7myqldump -u root -p klinik_312010083 > BackupTugas6.sql

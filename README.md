@@ -10,6 +10,10 @@
 ![image](https://user-images.githubusercontent.com/101724604/172102124-18a32cfa-cd8a-4122-a38f-3ae0c41bede4.png)
 
 ### 2. Lakukan proses Backup Dengan SQL dari Database tugas sebelumnya
+![image](https://user-images.githubusercontent.com/101724604/175054079-fc528f9b-8364-40d9-b3e1-9fcd13c6307d.png)
+
+![image](https://user-images.githubusercontent.com/101724604/175053994-a8c1551b-2fe2-4d5b-a80d-6d502f0091a0.png)
+
 ### 3. Jika proses berhasil maka akan muncul file backup pada Direktori
 C:\Xampp\mysql\data\nama database
 ### 4. Recovery

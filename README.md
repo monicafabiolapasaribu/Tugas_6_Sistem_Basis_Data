@@ -16,9 +16,16 @@
 
 ### 3. Jika proses berhasil maka akan muncul file backup pada Direktori
 C:\Xampp\mysql\data\nama database
+![image](https://user-images.githubusercontent.com/101724604/175054980-0c8fab7f-2d46-4b6d-9efc-6a504b5b1a0a.png)
+
 ### 4. Recovery
 Data yang telah di-Backup dapat dikembalikan kapan saja bila diperlukan. Sintaks SQL yang digunakan adalah LOAD DATA INFILE. Perintah yang dijalankan adalah :
 LOAD DATA INFILE 'Nama_backup_file' INTO TABLE nama_table;
+![image](https://user-images.githubusercontent.com/101724604/175055665-b2ea0492-a615-4eb6-9bf0-58ed45022d58.png)
+
 ### 5. Lakukan proses Backup dan Recovery dengan Sqldump dari Database tugas sebelumnya!
+![image](https://user-images.githubusercontent.com/101724604/175056731-304405df-9a7f-4952-9d98-742930323a03.png)
+
 ### 6. Tuliskan Script Cron Job untuk melakukan Backup otomatis setiap hari minggu jam 12 malam!
-Crontab-e
+- Crontab-e
+00**7myqldump -u root -p klinik_312010083 > BackupTugas6.sql
